@@ -15,6 +15,8 @@ mkdir -p rootfs/boot
 #save our dirs
 export SRC_PATH=$PWD
 export OUT_PATH=$PWD/kernel_out
+export INSTALL_MOD_PATH=$PWD/rootfs
+
 
 #download the source and extract other sources
 wget https://developer.nvidia.com/downloads/embedded/l4t/r36_release_v3.0/sources/public_sources.tbz2
